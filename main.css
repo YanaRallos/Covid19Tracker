@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+table{
+
+	border: 1px solid #55d49f;
+	border-radius: 3px;
+	border-collapse: collapse;
+	width: 1400px;
+
+}
+table th{
+	text-align: center;
+	background-color: #5cbf97;
+	color: #edf0f1;
+	padding: 4px 30px 4px 8px;
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	font-size: 20px;
+	margin-top: 20px;
+}
+table td {
+	border: 1px solid #e3e3e3;
+	padding: 6px 8px;
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+}
+
+table tr:nth-child(odd) td{
+	background-color: #bfbfbf;
+}
+
+h2{
+
+	text-align: center;
+	margin-top: 50px;
+	color:#5cbf97;
+}
+
+input{
+	padding: 4px 30px 4px 8px;
+	margin-top: 5px;
+}
+
+label{
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	color: #5cbf97;
+	margin-top: 5px;
+}
+
+form{
+
+	text-align: center;
+	padding-top: 20px;
+}
+
+.registration-table{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btn-submit{
+
+	background-color:#5cbf97;
+	padding:4px 4px 4px 4px;
+	border-radius: 3px;
+	margin-top: 5px;
+	color:#e3e3e3;
+
+}
+
+.btn-danger{
+	background-color:#cc0000;
+	padding:4px 4px 4px 4px;
+	border-radius: 3px;
+}
+
+.reg{
+
+	margin-top:30px;
+	text-align: center;
+}
+.generate p{
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	color: #190236;
+	margin-top: 20px;
+	text-align: center;
+
+}
+
+.alert-success{
+
+	font-family: 'Rubik', sans-serif;
+	font-weight:400;
+	font-size: 16px;
+	color: #bd9e02;
+	margin-top: 20px;
+	text-align: center;
+}
+.row{
+
+	margin-top: 15px;
+
+}
